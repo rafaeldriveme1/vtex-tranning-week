@@ -10,7 +10,8 @@
       "responsive-layout.desktop#desktop",
       "responsive-layout.mobile#mobile",
       "tab-layout#home",
-      "modal-trigger#first"
+      "modal-trigger#first",
+      "list-context.product-list"
     ]
   },
   "rich-text": { 
@@ -217,5 +218,15 @@
     "props": {
       "text": "Hello"
     }
+  },
+  "list-context.product-list": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout"]
+  },
+  "product-summary.shelf": {
+    "children": [
+      "product-summary-name",
+      "product-selling-price"
+    ]
   }
 }
