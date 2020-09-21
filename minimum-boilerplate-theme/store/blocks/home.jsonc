@@ -5,7 +5,8 @@
       "info-card#button-right",
       "info-card#button-left",
       "search-result-layout.customQuery#searchHome",
-      "flex-layout.row"
+      "flex-layout.row",
+      "slider-layout#home"
     ]
   },
   "rich-text": { 
