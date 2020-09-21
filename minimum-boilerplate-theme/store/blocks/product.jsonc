@@ -1,9 +1,40 @@
 {
   "store.product": {
     "children": [
+      "condition-layout.product",
       "breadcrumb",
       "flex-layout.row#main"
     ]
+  },
+  "condition-layout.product": {
+    "children": [
+      "condition.product#retro-mixer"
+    ]
+  },
+  /*
+    subject: é o dado que vai ser usado para fins de comparação, no nosso caso usaremos productId, na documentação é possível ver todas as opções disponíveis;
+    verb: é o método comparativo, usaremos o is para validar se o productId é de um produto específico, mas poderíamos usar: is, is-not, contains ou does-not-contain;
+    object: é o valor com que queremos comparar, no nosso caso, usaremos o productId 20.
+  */
+  "condition.product#retro-mixer": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "productId",
+          "verb": "is",
+          "object": "20"  // no console __RUNTIME__.route.params.id para pegar o productId
+        }
+      ]
+    },
+    "children": ["image#retro-mixer-banner"]
+  },
+  "image#retro-mixer-banner": { 
+    "props": { 
+      "src": "https://appliancetheme.vtexassets.com/assets/app/src/retroimage___92a8271aac7c51d2059193bdbe019016.jpg", 
+      "width": "100%",
+      "height": "200px",
+      "blockClass": "cover"
+    }
   },
   "flex-layout.row#main": { 
     "props": { 
