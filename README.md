@@ -126,3 +126,5 @@ https://homolog1--compracerta.myvtex.com/admin/cms/site-editor
 https://vtex.io
 
 https://lab.github.com/vtex-trainings/store-framework?overlay=register-box-overlay
+
+https://developers.vtex.com/docs
