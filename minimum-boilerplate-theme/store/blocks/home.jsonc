@@ -3,7 +3,8 @@
     "blocks": [
       "rich-text",
       "info-card#button-right",
-      "info-card#button-left"
+      "info-card#button-left",
+      "search-result-layout.customQuery#searchHome"
     ]
   },
   "rich-text": { 
@@ -36,5 +37,26 @@
     "callToActionText": "Go to collection",
     "textAlignment": "center"
     }
+  },
+  "search-result-layout.customQuery#searchHome": {
+    "props": {
+      "querySchema": {
+        "orderByField": "",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 12,
+        "queryField": "Oven",
+        "mapField": "ft",
+        // "queryField": "137", // para coleção
+        // "mapField": "productClusterIds", // para coleção
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "skip",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
   }
 }

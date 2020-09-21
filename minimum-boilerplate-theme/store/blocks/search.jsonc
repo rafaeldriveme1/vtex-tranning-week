@@ -11,6 +11,12 @@
        "search-not-found-layout"
     ]
   },
+  "flex-layout.row#results": {
+    "children": [
+      "flex-layout.col#filter",
+      "flex-layout.col#search"
+    ]
+  },
   "search-result-layout.desktop": {
     "children": [ 
       "breadcrumb.search",
@@ -18,9 +24,21 @@
       "total-products.v2",
       "order-by.v2",
       "search-fetch-previous",
-      "search-content",
-      "filter-navigator.v3",
+      "flex-layout.row#results",
       "search-fetch-more"
     ]
+  },
+  "flex-layout.col#filter": {
+    "props": {
+      "width": "20%"
+    },
+    "children": [
+      "filter-navigator.v3"
+    ]
+  },
+  "flex-layout.col#search": {
+     "children": [
+       "search-content"
+     ]
   }
 }
