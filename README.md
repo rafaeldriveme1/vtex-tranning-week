@@ -169,6 +169,30 @@ Após a confirmação, o build da app começará e, após ser finalizado, você 
 
 Pronto! Você acabou de fazer sua primeira publicação!
 
+## Instalando uma app em uma conta VTEX
+
+Uma vez que você publica uma app, é possível instalá-la em uma conta VTEX. Em geral, depois de instalar, há um robô chamado House Keeper, que se assegura de que todas as contas VTEX se mantenham com as apps atualizadas com a versão mais recente. Versões minors e patches que são lançadas, são automaticamente atualizadas nas contas.
+
+Porém, para instalar uma app pela primeira vez ou uma nova versão major, é necessário que seja feito manualmente. Neste passo, você aprenderá como fazer isso.
+
+#### Instalando a app
+
+```sh
+vtex install {vendor}.{appName}@{version}
+```
+
+#### Já no caso de ter projeto da app, você precisar ir na pasta do projeto e rodar o seguinte comando:
+
+```sh
+vtex install
+```
+
+#### Listar as apps que estão atualmente instaladas em uma conta
+
+```sh
+vtex ls
+```
+
 ## Outros
 
 #### html-to-jsx
