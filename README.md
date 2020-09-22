@@ -111,6 +111,12 @@ vtex install compracerta.store-theme
 vtex help
 ```
 
+#### inpecionar elementos
+
+```sh
+https://rafaelcr1--appliancetheme.myvtex.com/?__inspect
+```
+
 ## Outros
 
 #### html-to-jsx
