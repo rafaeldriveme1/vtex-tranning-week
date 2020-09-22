@@ -193,6 +193,10 @@ vtex install
 vtex ls
 ```
 
+## Site Editor
+
+O Site Editor é um painel que se encontra dentro da página de admin de uma loja que permite você alterar propriedades dos blocos referentes à frente de loja. A página de admin de sua loja pode ser acessada adicionando /admin na url. As mudanças que são feitas aqui são automaticamente refletidas na loja e todos os blocos que estão na frente de loja podem ser alterados através deste painel. Por exemplo, é possível alterar o conteúdo de um rich text, propriedades de uma prateleira, como as coleções sendo mostradas, entre outras coisas.
+
 ## Outros
 
 #### html-to-jsx
