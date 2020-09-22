@@ -13,6 +13,7 @@
     "flex-layout.col#text-about-us": {
         "children": [
           "rich-text#about-title",
+          "rich-text#about-description",
           "rich-text#about-content"
         ],
         "props": {
@@ -22,6 +23,12 @@
     "rich-text#about-title": {
         "props": {
             "text": "# About Minimum Theme"
+        }
+    },
+    "rich-text#about-description": {
+        "props": {
+          "text":
+            "## Our history \n O link deve apontar para a página inicial do portal da Sala Developers da [VTEX Training Week BRA](https://trainingweekvtex.yazo.com.br/home)."
         }
     },
     "rich-text#about-content": {
