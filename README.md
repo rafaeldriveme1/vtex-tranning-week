@@ -223,6 +223,22 @@ No Store Framework, existem basicamente dois pontos em que as imagens podem ser 
 
 https://squoosh.app/
 
+#### Performace
+
+Alguns links para vcs aprenderem mais sobre performance! Como o Tiago disse, essa é uma área muito vasta, então vale a pena ler sobre porque tem muita coisa legal! :D
+
+- [https://web.dev/interactive/](https://web.dev/interactive/)
+- [https://web.dev/mainthread-work-breakdown/](https://web.dev/mainthread-work-breakdown/)
+- [https://web.dev/bootup-time/](https://web.dev/bootup-time/)
+- [https://web.dev/lighthouse-total-blocking-time/](https://web.dev/lighthouse-total-blocking-time/)
+- [https://web.dev/long-tasks-devtools/#what-is-causing-my-long-tasks](https://web.dev/long-tasks-devtools/#what-is-causing-my-long-tasks)
+- [https://web.dev/cls/](https://web.dev/cls/)
+- [https://web.dev/optimize-cls/](https://web.dev/optimize-cls/)
+- [https://web.dev/vitals/](https://web.dev/vitals/)
+- [https://www.youtube.com/watch?v=zIJuY-JCjqw&feature=youtu.be&ab_channel=estellevw](https://www.youtube.com/watch?v=zIJuY-JCjqw&feature=youtu.be&ab_channel=estellevw)
+- [https://www.youtube.com/watch?v=AQqFZ5t8uNc&ab_channel=GoogleChromeDevelopers](https://www.youtube.com/watch?v=AQqFZ5t8uNc&ab_channel=GoogleChromeDevelopers)
+
+
 ## Outros
 
 #### html-to-jsx
@@ -248,4 +264,3 @@ https://developers.vtex.com/docs/vtex-condition-layout
 https://tachyons.io/
 
 https://squoosh.app/
-
