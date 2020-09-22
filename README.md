@@ -82,6 +82,10 @@ Para começar a tirar o melhor proveito deste curso, começaremos com um reposit
 
 https://github.com/vtex-apps/minimum-boilerplate-theme
 
+#### Demostore-theme
+
+https://github.com/vtex-apps/demostore-theme
+
 ## Link
 
 #### Rodar o projeto
