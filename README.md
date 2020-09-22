@@ -76,13 +76,21 @@ vtex use nome-do-workspace
 vtex use {WorkspaceName} --production
 ```
 
-#### Boilerplate
+#### Teste de performace
+
+Google Page Speed
+
+https://appliancetheme.myvtex.com/?workspace=rafaelcr1
+
+Lighthouse Scoring Calculator
+
+## Boilerplate
 
 Para começar a tirar o melhor proveito deste curso, começaremos com um repositório de tema de loja básico, que você pode clonar neste link. Neste tema, existem alguns arquivos iniciais necessários e você pode seguir as instruções em seu README.md para cloná-lo corretamente.
 
 https://github.com/vtex-apps/minimum-boilerplate-theme
 
-#### Demostore-theme
+## Demostore-theme
 
 https://github.com/vtex-apps/demostore-theme
 
@@ -240,3 +248,4 @@ https://developers.vtex.com/docs/vtex-condition-layout
 https://tachyons.io/
 
 https://squoosh.app/
+
