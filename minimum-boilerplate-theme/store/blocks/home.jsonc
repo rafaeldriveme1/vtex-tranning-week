@@ -1,7 +1,8 @@
 {
   "store.home": { 
     "blocks": [
-      "rich-text",
+      "rich-text#one",
+      "rich-text#two",
       "info-card#button-right",
       "info-card#button-left",
       "search-result-layout.customQuery#searchHome",
@@ -17,7 +18,13 @@
       "info-card#vintage"
     ]
   },
-  "rich-text": { 
+  "rich-text#one": { 
+    "props": { 
+      "text": "# Hello, World",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#two": { 
     "props": { 
       "text": "**Hello, World!**",
       "textPosition": "RIGHT"
