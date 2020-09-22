@@ -201,6 +201,20 @@ vtex ls
 
 O Site Editor é um painel que se encontra dentro da página de admin de uma loja que permite você alterar propriedades dos blocos referentes à frente de loja. A página de admin de sua loja pode ser acessada adicionando /admin na url. As mudanças que são feitas aqui são automaticamente refletidas na loja e todos os blocos que estão na frente de loja podem ser alterados através deste painel. Por exemplo, é possível alterar o conteúdo de um rich text, propriedades de uma prateleira, como as coleções sendo mostradas, entre outras coisas.
 
+## Imagens
+
+#### Pontos de otimização
+
+No Store Framework, existem basicamente dois pontos em que as imagens podem ser otimizadas:
+
+** product-image: **  é a imagem de produto que é mostrada em sua página (pdp);
+** product-summary-image: **  é a imagem de produto que é exibida em prateleiras e resultados de busca;
+** image: **  são imagens comuns, usadas para banners, carrosséis e infocards
+
+#### Compressor
+
+https://squoosh.app/
+
 ## Outros
 
 #### html-to-jsx
@@ -224,3 +238,5 @@ https://www.notion.so/Blocos-b-sicos-Store-Framework-92ab69f4193c431888a3df243e7
 https://developers.vtex.com/docs/vtex-condition-layout
 
 https://tachyons.io/
+
+https://squoosh.app/

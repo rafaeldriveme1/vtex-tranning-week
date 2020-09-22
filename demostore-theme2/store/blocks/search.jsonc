@@ -201,10 +201,15 @@
 
   "flex-layout.row#depBanner": {
     "children": [
-      "info-card#depbanner"
+      "image#depbanner"
     ]
   },
 
+  "image#depbanner": {
+    "props": {
+      "src": "assets/electronics.png"
+    }
+  },
   "search-result-layout.mobile#dep": {
     "children": [
       "flex-layout.row#depBanner",
