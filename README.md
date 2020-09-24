@@ -321,3 +321,11 @@ https://developers.vtex.com/docs/vtex-io-documentation-5-customizingstyles
 para testar sua loja em outros idiomas basta adicionar a query string 
 
 /?cultureInfo=pt-br ou /?cultureInfo=en-ar na UR
+
+## Admin framework
+
+#### react app template
+
+```sh
+git clone https://github.com/vtex-apps/react-app-template admin-course
+```
