@@ -102,7 +102,11 @@ https://github.com/vtex-trainings/store-block-template
 
 https://github.com/vtex-apps/store-theme
 
-#### Link
+#### React App Template
+
+https://github.com/vtex-apps/react-app-template
+
+## Link
 
 #### Rodar o projeto
 
