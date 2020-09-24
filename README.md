@@ -307,3 +307,9 @@ https://apps.vtex.com/
 #### Estilos custom
 
 https://developers.vtex.com/docs/vtex-io-documentation-5-customizingstyles
+
+#### PAra testar sua loja em outros idiomas
+
+para testar sua loja em outros idiomas basta adicionar a query string 
+
+/?cultureInfo=pt-br ou /?cultureInfo=en-ar na UR
