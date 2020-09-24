@@ -303,3 +303,7 @@ vtex-appx/product-price
 #### App Store
 
 https://apps.vtex.com/
+
+#### Estilos custom
+
+https://developers.vtex.com/docs/vtex-io-documentation-5-customizingstyles
