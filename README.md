@@ -122,6 +122,12 @@ vtex browse
 vtex unlink
 ```
 
+#### Agora, para evitar conflitos, vá ao terminal e unlinke qualquer tema ou aplicação que você tenha linkado no seu workspace:
+
+```sh
+vtex unlink --all
+```
+
 ## Apps
 
 https://vtex.io/docs/components/all
