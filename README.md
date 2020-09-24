@@ -256,6 +256,12 @@ Alguns links para vcs aprenderem mais sobre performance! Como o Tiago disse, ess
 - [https://www.youtube.com/watch?v=zIJuY-JCjqw&feature=youtu.be&ab_channel=estellevw](https://www.youtube.com/watch?v=zIJuY-JCjqw&feature=youtu.be&ab_channel=estellevw)
 - [https://www.youtube.com/watch?v=AQqFZ5t8uNc&ab_channel=GoogleChromeDevelopers](https://www.youtube.com/watch?v=AQqFZ5t8uNc&ab_channel=GoogleChromeDevelopers)
 
+## Serviços
+
+## App inicial
+
+https://github.com/vtex-apps/events-example
+
 ## Outros
 
 #### html-to-jsx
@@ -281,6 +287,8 @@ https://developers.vtex.com/docs/vtex-condition-layout
 https://tachyons.io/
 
 https://squoosh.app/
+
+https://developers.vtex.com/docs/vtex-io-documentation-edition-app
 
 ## Inspirações de App
 
@@ -308,7 +316,7 @@ https://apps.vtex.com/
 
 https://developers.vtex.com/docs/vtex-io-documentation-5-customizingstyles
 
-#### PAra testar sua loja em outros idiomas
+#### Para testar sua loja em outros idiomas
 
 para testar sua loja em outros idiomas basta adicionar a query string 
 
