@@ -90,11 +90,19 @@ Para começar a tirar o melhor proveito deste curso, começaremos com um reposit
 
 https://github.com/vtex-apps/minimum-boilerplate-theme
 
-## Demostore-theme
+#### Demostore-theme
 
 https://github.com/vtex-apps/demostore-theme
 
-## Link
+#### Store Block course template
+
+https://github.com/vtex-trainings/store-block-template
+
+#### Store theme
+
+https://github.com/vtex-apps/store-theme
+
+#### Link
 
 #### Rodar o projeto
 
@@ -238,7 +246,6 @@ Alguns links para vcs aprenderem mais sobre performance! Como o Tiago disse, ess
 - [https://www.youtube.com/watch?v=zIJuY-JCjqw&feature=youtu.be&ab_channel=estellevw](https://www.youtube.com/watch?v=zIJuY-JCjqw&feature=youtu.be&ab_channel=estellevw)
 - [https://www.youtube.com/watch?v=AQqFZ5t8uNc&ab_channel=GoogleChromeDevelopers](https://www.youtube.com/watch?v=AQqFZ5t8uNc&ab_channel=GoogleChromeDevelopers)
 
-
 ## Outros
 
 #### html-to-jsx
@@ -264,3 +271,25 @@ https://developers.vtex.com/docs/vtex-condition-layout
 https://tachyons.io/
 
 https://squoosh.app/
+
+## Inspirações de App
+
+#### Boilerplate para começar uma app custom
+
+vtex-appx/react-app-template
+
+#### App com testes
+
+vtex-appx/disclosure-layout
+
+#### App que cumpre uma função
+
+vtex-appx/product-specifications
+
+#### App que usa o IOMessageWithMarkers
+
+vtex-appx/product-price
+
+#### App Store
+
+https://apps.vtex.com/
