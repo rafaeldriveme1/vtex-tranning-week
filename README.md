@@ -329,3 +329,7 @@ para testar sua loja em outros idiomas basta adicionar a query string
 ```sh
 git clone https://github.com/vtex-apps/react-app-template admin-course
 ```
+
+#### Paletas de corretamente
+
+Happy Hues
