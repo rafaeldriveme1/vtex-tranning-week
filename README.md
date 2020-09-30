@@ -333,3 +333,7 @@ git clone https://github.com/vtex-apps/react-app-template admin-course
 #### Paletas de corretamente
 
 Happy Hues
+
+#### Mostrar as alterações feitas pelo Store Editor
+
+?UserDisableLand?
