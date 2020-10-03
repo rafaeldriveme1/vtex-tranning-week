@@ -1,4 +1,4 @@
 type ProductList {
-  slug: String
-  count: Int
+  id: String 
+  email: String
 }
