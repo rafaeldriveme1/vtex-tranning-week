@@ -372,3 +372,8 @@ https://github.com/vtex-apps/docs-ui/blob/master/react/typings/vtex.styleguide.d
 #### IOClients
 
 https://github.com/vtex/node-vtex-api/blob/ccf4d8f8d3208007c4bfd558baf979df8d825af8/src/clients/IOClients.ts
+
+#### Curl
+
+curl --location --request GET "https://api.vtex.com/api/dataentities/course_backend_product_list/search?_fields=slug,count&_schema=v1&an=appliancetheme" \
+--header "Content-Type: application/json"
