@@ -1,5 +1,5 @@
 import { IOClients } from '@vtex/api'
-import Analytics from './analyticsClient'
+import Analytics from './analytics'
 
 export class Clients extends IOClients {
   public get analytics() {

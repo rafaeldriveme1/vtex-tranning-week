@@ -26,6 +26,12 @@ vtex-v
 vtex login contaVTEX
 ```
 
+#### Fazendo logout
+
+```sh
+vtex logout
+```
+
 #### Para confirmar em qual conta e workspace você está
 
 ```sh
@@ -337,3 +343,28 @@ Happy Hues
 #### Mostrar as alterações feitas pelo Store Editor
 
 ?UserDisableLand?
+
+#### Aqui estão os materiais das nossas palestras:
+
+@VTEX - Gris - IO Overview: https://docs.google.com/presentation/d/1uMQPytdBBM_AX0lRy5Y-ODqdbF1XfKoowaP1a_GXsmY/edit?usp=sharing
+
+Athos - VTEX IO Infra: https://drive.google.com/file/d/1QnpJdaxwrRX9ZFB_MrQMk_IfQN8YYjc7/view?usp=sharing
+
+@gimenes - Webframework:  https://docs.google.com/presentation/d/129HHfjcwQlGWI0coqmRy4EHeZu92aV2LJVl_9LdWOQI/edit?usp=sharing
+
+@VTEX - Breno - Store Framework: https://docs.google.com/presentation/d/1pnPTV9pXRoIwufZBSofQirhHEcy_ttvM1b2DxCvMbyg/edit?usp=sharing
+
+@VTEX - Victoria UX/UI: https://docs.google.com/presentation/d/1Kvjq0bs1LwLINF7v7_NoXoWLgqLw96PEQeCV6puTvV8/edit?userstoinvite=davi.costa%40vtex.com.br&ts=5f6b5a68&actionButton=1#slide=id.g8d32e1c056_0_78
+
+#### Apresentação com links e referências: 
+
+https://docs.google.com/presentation/d/1Kvjq0bs1LwLINF7v7_NoXoWLgqLw96PEQeCV6puTvV8/edit?usp=sharing
+
+Checklist com os tópicos da apresentação, para vocês copiarem como template no Notion: https://www.notion.so/Experi-ncia-do-usu-rio-interface-e-estilo-e-o-que-voc-pode-fazer-com-isso-271a36f3aac648ddbe333ffdb582231d
+Figma com anotações e fluxo: https://www.figma.com/community/file/890663077257791572
+
+Boa sorte, galera
+
+#### docs-ui
+
+https://github.com/vtex-apps/docs-ui/blob/master/react/typings/vtex.styleguide.d.ts

@@ -1,42 +1,40 @@
 import {
+  LRUCache,
   Service,
-  IOClients,
-  ParamsContext,
   ServiceContext,
+  ParamsContext,
   RecorderState,
+  method,
 } from '@vtex/api'
-import { example } from './events/example'
-import { createSendEvent } from './routes/notify'
-import { getCacheContext, setCacheContext } from './utils/cachedContext'
+
+import { Clients } from './clients'
+import { analytics } from './handlers/analytics'
+import { updateLiveUsers } from './events/liveUsersUpdate'
+
+// Create a LRU memory cache for the Status client.
+// The @vtex/api HttpClient respects Cache-Control headers and uses the provided cache.
+const memoryCache = new LRUCache<string, any>({ max: 5000 })
+metrics.trackCache('status', memoryCache)
 
 const TREE_SECONDS_MS = 3 * 1000
 const CONCURRENCY = 10
 
 declare global {
-  type Context = ServiceContext<IOClients, State>
+  type Context = ServiceContext<Clients, State>
 
   interface State extends RecorderState {
     code: number
   }
 }
 
-function sendEventWithTimer() {
-  setInterval(function () {
-    const context = getCacheContext()
-    if (!context) {
-      console.log('no context in memory')
-      return
-    }
-    return createSendEvent(context)
-  }, 30000)
-  console.log('FIRED HERE')
-}
-
-sendEventWithTimer()
-
-export default new Service<IOClients, State, ParamsContext>({
+export default new Service<Clients, State, ParamsContext>({
   clients: {
+    implementation: Clients,
     options: {
+      default: {
+        retries: 2,
+        timeout: 10000,
+      },
       events: {
         exponentialTimeoutCoefficient: 2,
         exponentialBackoffCoefficient: 2,
@@ -47,15 +45,12 @@ export default new Service<IOClients, State, ParamsContext>({
       },
     },
   },
-  events: {
-    example,
-  },
   routes: {
-    hcheck: (ctx: any) => {
-      setCacheContext(ctx)
-      ctx.set('Cache-Control', 'no-cache')
-      ctx.status = 200
-      ctx.body = 'ok'
-    },
+    analytics: method({
+      GET: [analytics],
+    }),
+  },
+  events: {
+    liveUsersUpdate: updateLiveUsers,
   },
 })
