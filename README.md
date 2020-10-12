@@ -403,3 +403,7 @@ https://developers.vtex.com/reference/get-to-know-vtex-apis
 ## Conteudo do token
 
 https://jwt.io
+
+## Endpoints
+
+https://{workspace}--{account}.myvtex.com/_v/status/:code
