@@ -38,6 +38,10 @@ vtex logout
 vtex whoami
 ```
 
+#### Token pessoal
+
+vtex local token
+
 ## Workspaces
 
 Os workspaces nada mais são do que o que o homônimo sugere. No VTEX IO, as contas têm três tipos principais de workspace, a saber master, produção e desenvolvimento.
@@ -111,6 +115,10 @@ https://github.com/vtex-apps/store-theme
 #### React App Template
 
 https://github.com/vtex-apps/react-app-template
+
+#### Service example
+
+https://github.com/vtex-apps/service-example
 
 ## Link
 
@@ -377,3 +385,21 @@ https://github.com/vtex/node-vtex-api/blob/ccf4d8f8d3208007c4bfd558baf979df8d825
 
 curl --location --request GET "https://api.vtex.com/api/dataentities/course_backend_product_list/search?_fields=slug,count&_schema=v1&an=appliancetheme" \
 --header "Content-Type: application/json"
+
+## Query Params para ajudar no desenvolvimento
+
+#### Remove cache 
+
+?__disableSSR=true
+
+#### Exibe classes 
+
+?__inspect
+
+#### Encontrando as APIs do VTEX Commerce
+
+https://developers.vtex.com/reference/get-to-know-vtex-apis
+
+## Conteudo do token
+
+https://jwt.io
